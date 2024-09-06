@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 签出代码
+      - name: 签出代码1
         uses: actions/checkout@v3.3.0
       - name: 初始化JDK
         uses: actions/setup-java@v3.5.1
